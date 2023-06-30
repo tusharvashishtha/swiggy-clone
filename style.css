@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@700&family=Poppins:wght@300&family=Zilla+Slab:wght@500&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.main {
+    display: flex;
+    margin-left: 131px;
+}
+
+.main .left {
+    margin-top: 72px;
+}
+
+.main .left nav img {
+    position: relative;
+    right: 38px;
+    height: 120;
+    width: 185px
+}
+
+.main .left nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+   
+}
+
+.main nav .signup {
+    width: 110px;
+    height: 33px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.main nav .signup:hover {
+    cursor: pointer;
+}
+
+.cities-names {
+    font-family: proxima-nova, sans-serif;
+    margin-top: 8px;
+    font-size: 17px;
+    color: rgb(67, 63, 76);
+    opacity: 0.9;
+    font-weight: 500;
+    font-size: 1.2rem;
+    width: 500px;
+    word-wrap: break-word;
+}
+
+.main-img {
+    width: 680px;
+    height: 540px;
+    
+    margin-left: auto;
+}
+
+.left nav button {
+    color: black;
+    background-color: transparent;
+    border: none;
+    padding: 0.2rem;
+    margin-inline: 13px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.left nav button:hover {
+    color: #fc8019;
+    cursor: pointer;
+}
+
+.main .left .txt {
+    margin-left: 33px;
+    margin-top: 54px;
+}
+
+.btn {
+    position: relative;
+    left: 65px;
+}
+
+input[type="text"]::placeholder{
+    font-family: 'Zilla Slab', serif;
+}
+
+.inp input:focus {
+    outline: none;
+    border: none;
+}
+
+.inp button {
+    cursor: pointer;
+}
+
+.left .txt h1 {
+    font-size: 38px;
+    color: rgb(67, 63, 76);
+    font-family: 'Zilla Slab', serif;
+}
+
+.first-para{
+    font-family: proxima-nova, sans-serif;
+    margin-top: 8px;
+    font-size: 17px;
+    color: rgb(67, 63, 76);
+    opacity: 0.9;
+    font-weight: 400;
+}
+
+.main .left .txt h3{
+    margin-top: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(67, 63, 76);
+    opacity: 0.5;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.left .txt .inp {
+    display: flex;
+    margin: 30px 0px 30px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.left .txt input {
+    width: 480px;
+    height: 36px;
+    border: 1px solid #fc8019;
+    border-right: none;
+    padding: 8px;
+}
+
+
+.left .txt .inp button{
+    width: 120px;
+    background-color: #fc8019;
+    border: none;
+    color: white;
+    font-size: 18px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #2D2217;
+    height: 402px;
+}
+
+.card .crd img{
+    width: 122px;
+    height: 206px ;
+}
+
+.card .crd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+.card .crd h3{
+      margin-top: 14%;
+      font-family: 'Poppins', sans-serif;
+}
+.card .crd p {
+    margin-top: 5px;
+    width: 254px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    word-wrap: break-word;
+}
+
+.rest{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+}
+
+.rest img {
+    width: 200px;
+}
